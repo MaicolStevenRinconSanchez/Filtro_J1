@@ -317,6 +317,7 @@ body{
     body{
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 .Container{
     display: flex;
@@ -344,7 +345,7 @@ body{
 }
 .Fondo{
     width: 100%;
-    height:130%;
+    height:110%;
 }
 .mach1{
     position: absolute;
@@ -388,7 +389,7 @@ body{
     border-radius: 80px;
     width: 24%;
     height: 60%;
-    margin: 12% 0 0 0;
+    margin: 9% 0 0 0;
 }
 .img1,.img2,.img3{
     width: 100%;
@@ -432,20 +433,20 @@ body{
 }
 .background{
     width: 100%;
-    height: 100%;
+    height: 110%;
 }
 .Fondo{
     width: 100%;
-    height:130%;
+    height:100%;
 }
 .mach1{
     position: absolute;
-    transform: translate(0vw,-55vh);
+    transform: translate(-2vw,-55vh);
     width: 30%;
     height: 40%;
 }
 .mamcha{
-    width: 100%;
+    width: 10%;
     height: auto;
 }
 .cafe{
@@ -476,7 +477,7 @@ body{
     border-radius: 80px;
     width: 24%;
     height: 60%;
-    margin: 13% 0 0 0;
+    margin: 5% 0 0 0;
 }
 .img1,.img2,.img3{
     width: 100%;
@@ -522,8 +523,8 @@ body{
     height: 100%;
 }
 .Fondo{
-    width: 100%;
-    height:140%;
+    width: 110%;
+    height:120%;
 }
 .mach1{
     position: absolute;
@@ -537,7 +538,7 @@ body{
 }
 .cafe{
     position: absolute;
-    transform: translate(15vw,-50vh);
+    transform: translate(19vw,-50vh);
     width: 20%;
     height: 60%;
 }
@@ -575,8 +576,8 @@ body{
     padding: 5% 0 0 2%;
 }
 .MinColum p{
-    font-size: 1.3vw;
-    padding: 2vw 0 0 0;
+    font-size: 1.1vw;
+    padding: 4vw 0 0 0;
 }
 
 }
@@ -611,7 +612,7 @@ body{
 }
 .Fondo{
     width: 100%;
-    height:150%;
+    height:130%;
 }
 .mach1{
     position: absolute;
