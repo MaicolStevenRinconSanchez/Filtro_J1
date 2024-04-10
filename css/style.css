@@ -3,3 +3,844 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+    height: auto;
+    background-color: #ead8d0 ;
+}
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+    flex-direction: column;
+    
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    
+    width: 100%;
+    height: 70%;
+        
+}
+.Izquierda{
+    left:0 ;
+    width: 50%;
+    height: 100%;
+}
+.Article-1{
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 25%;
+    margin: 3% 0 0 10%;
+}
+.Flower{
+    width: 100%;
+    height: auto;
+}
+
+.Izquierda h1{
+    font-size: 11vw;
+    padding: 2% 0 0 5%;
+}
+.Izquierda p{
+    font-size: 2vw;
+    padding: 0 0 0 5%;
+}
+.buttom{
+    
+    width: 25%;
+    height: 8%;
+    border-radius: 30px;
+    margin: 2% 0 0 5%;
+    background-color: #3c2b1a ;
+    
+}
+.buttom:hover{
+    border-radius: 30px;
+    background-color: #4e7b7c;
+}
+.buttom p{
+    margin: 0;
+    padding: 0vw 0 0 0.5vw;
+    color:  #e6e3e4 ;
+    font-size: 2vw;
+    white-space: nowrap;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:102%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(5vw,-60vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-70vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+@media only screen and (max-width:1600px){
+        body{
+        width: 100%;
+        height: auto;
+    }
+    .Container{
+        display: flex;
+        width: 100%;
+        background-color: #ead8d0 ;
+        overflow: hidden;
+    }
+    .Columna-arriba{
+        display: flex;
+        columns: 2;
+        width: 100%;
+        height: 60%;       
+    }
+    .Izquierda{
+        width: 50%;
+    }
+    .Derecha{
+        right: 0;
+        width: 50%;
+        height: 100%;
+    }
+    .background{
+        width: 100%;
+        height: 100%;
+    }
+    .Fondo{
+        width: 100%;
+        height:110%;
+    }
+    .mach1{
+        position: absolute;
+        transform: translate(0vw,-55vh);
+        width: 30%;
+        height: 40%;
+    }
+    .mamcha{
+        width: 100%;
+        height: auto;
+    }
+    .cafe{
+        position: absolute;
+        transform: translate(15vw,-50vh);
+        width: 20%;
+        height: 60%;
+    }
+    .coffe{
+        width: 100%;
+        height:auto;
+    }
+    .Columna-abajo{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        columns: 3;
+        gap: 2rem;
+        
+        justify-content: center;
+        
+        
+    }
+    .MinColum{
+        margin: 3% 0 0 0;
+        display: flex;
+        background-color:  white;
+        border-radius: 80px;
+        width: 24%;
+        height: 60%;
+        margin: 8% 0 0 0;
+    }
+    .img1,.img2,.img3{
+        width: 100%;
+        height: 100%;
+        padding: 0 0 0 0;
+    }
+    .MinColum h2{
+        font-size: 2vw;
+        padding: 5% 0 0 2%;
+    }
+    .MinColum p{
+        font-size: 1.3vw;
+        padding: 2vw 0 0 0;
+    }
+
+}
+
+@media only screen and (max-width:1500px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:110%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 8% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+}
+
+
+
+@media only screen and (max-width:1400px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:130%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 12% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding:5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 5vw 0 0 0;
+}
+
+}
+@media only screen and (max-width:1300px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:130%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 13% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 5vw 0 0 0;
+}
+}
+@media only screen and (max-width:1200px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:140%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 8% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+}
+@media only screen and (max-width:1100px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:150%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 8% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+}
+@media only screen and (max-width:1000px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:160%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 8% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+}
+@media only screen and (max-width:900px){
+    body{
+    width: 100%;
+    height: auto;
+}
+.Container{
+    display: flex;
+    width: 100%;
+    background-color: #ead8d0 ;
+    overflow: hidden;
+}
+.Columna-arriba{
+    display: flex;
+    columns: 2;
+    width: 100%;
+    height: 60%;       
+}
+.Izquierda{
+    width: 50%;
+}
+.Derecha{
+    right: 0;
+    width: 50%;
+    height: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.Fondo{
+    width: 100%;
+    height:110%;
+}
+.mach1{
+    position: absolute;
+    transform: translate(0vw,-55vh);
+    width: 30%;
+    height: 40%;
+}
+.mamcha{
+    width: 100%;
+    height: auto;
+}
+.cafe{
+    position: absolute;
+    transform: translate(15vw,-50vh);
+    width: 20%;
+    height: 60%;
+}
+.coffe{
+    width: 100%;
+    height:auto;
+}
+.Columna-abajo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    columns: 3;
+    gap: 2rem;
+    
+    justify-content: center;
+    
+    
+}
+.MinColum{
+    margin: 3% 0 0 0;
+    display: flex;
+    background-color:  white;
+    border-radius: 80px;
+    width: 24%;
+    height: 60%;
+    margin: 8% 0 0 0;
+}
+.img1,.img2,.img3{
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+.MinColum h2{
+    font-size: 2vw;
+    padding: 5% 0 0 2%;
+}
+.MinColum p{
+    font-size: 1.3vw;
+    padding: 2vw 0 0 0;
+}
+
+}
